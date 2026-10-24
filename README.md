@@ -91,6 +91,3 @@ The prediction notebook uses a stratified train/test split (80/20) and a `Random
 
 Python, pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, scikit-learn, SQL, SQLAlchemy, MySQL Connector/PyMySQL.
 
-## License
-
-No license is specified yet. Add a license only after deciding how you want others to use and redistribute this work.
