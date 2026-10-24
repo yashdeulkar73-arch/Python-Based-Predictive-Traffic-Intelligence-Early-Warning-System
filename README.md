@@ -81,12 +81,6 @@ The SQL notebook cannot run until the MySQL server, database, and `traffic` tabl
 
 The prediction notebook uses a stratified train/test split (80/20) and a `RandomForestClassifier` with 100 trees. It reports accuracy, a normalized confusion matrix, and feature importances. Evaluate performance beyond accuracy when classes are imbalanced, and avoid using target-derived or future-leaking features in a production forecasting system. This repository is a learning/prototype project, not a deployed traffic warning service.
 
-## Limitations
-
-- Validate the dataset's provenance, collection method, and representativeness before making real-world claims.
-- Notebook outputs can depend on library versions, SQL setup, and execution order.
-- Predictions should not be used for operational traffic management without robust validation, monitoring, and safety review.
-
 ## Tools and technologies
 
 Python, pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, scikit-learn, SQL, SQLAlchemy, MySQL Connector/PyMySQL.
